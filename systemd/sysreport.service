@@ -1,0 +1,6 @@
+[Unit]
+Description=System Health Report
+
+[Service]
+Type=oneshot
+ExecStart=/home/himanshu/devops-toolkit-week01/scripts/sysreport.sh
